@@ -60,9 +60,9 @@ plugins:
   - jekyll-remote-theme
 
 author:
-  name   : "First Lastname"
+  name   : "Pluto"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Hi!👋 I am Pluto. This is my personal website where I share my knowledge with you. Hope you would enjoy."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
