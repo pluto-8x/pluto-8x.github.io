@@ -26,7 +26,7 @@ search: true
 
 # Build settings
 markdown: kramdown
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -48,6 +48,7 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -56,6 +57,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 author:
   name   : "First Lastname"
