@@ -14,15 +14,28 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Pluto
+url: "https://pluto-8x.github.io"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+github_username: "pluto-8x"
+minimal_mistakes_skin: dirt
 search: true
+
+breadcrumbs: true  # default is false
+page_meta_separator: " | "
+enable_copy_code_button: true
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-2T6DDLW3LY"  # replace with your Measurement ID
+    anonymize_ip: true           # optional, anonymizes visitor IPs
+
+
 
 # Build settings
 markdown: kramdown
@@ -101,6 +114,9 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
+      date_format: "%B %-d, %Y"
+
   # _pages
   - scope:
       path: "_pages"
